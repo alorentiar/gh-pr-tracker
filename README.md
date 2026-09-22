@@ -1,5 +1,10 @@
 # gh-pr-tracker
 
+[![PyPI](https://img.shields.io/pypi/v/gh-pr-tracker.svg)](https://pypi.org/project/gh-pr-tracker/)
+[![Python versions](https://img.shields.io/pypi/pyversions/gh-pr-tracker.svg)](https://pypi.org/project/gh-pr-tracker/)
+[![CI](https://github.com/alorentiar/gh-pr-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/alorentiar/gh-pr-tracker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Track the pull requests you opened on GitHub, and report **only what changed**.
 
 `gh-pr-tracker` remembers the last state of each open PR and prints a diff on
@@ -39,7 +44,13 @@ gh-pr-tracker whoami
 
 ## Install
 
-From a clone:
+From PyPI:
+
+```bash
+pip install gh-pr-tracker
+```
+
+From a clone, if you want to work on it:
 
 ```bash
 git clone https://github.com/alorentiar/gh-pr-tracker
